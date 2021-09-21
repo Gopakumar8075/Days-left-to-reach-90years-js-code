@@ -1,0 +1,28 @@
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+    
+    var nintyYearDays = 365 * 90;
+    var nintyweeks = 52 * 90;
+    var nintyMonths = 12 * 90;
+
+   var ageInDays = age * 365;
+   var ageInWeeks = age * 52;
+   var ageInmonths = age * 12;
+
+   var daysleft = nintyYearDays - ageInDays;
+   var weeksLeft = nintyweeks - ageInWeeks;
+   var monthsLeft = nintyMonths - ageInmonths;
+
+   console.log ("You have "+ daysleft + " days , " + weeksLeft + " weeks , " + monthsLeft + " months left .");
+   
+    
+    
+    
+/*************Don't change the code below**********/
+}
+
+lifeInWeeks(30
+)
